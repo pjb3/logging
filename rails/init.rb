@@ -1,0 +1,1 @@
+ActionController::Base.send(:include, Logging) unless Rails.env == "production"
