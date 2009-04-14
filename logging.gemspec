@@ -8,5 +8,5 @@ SPEC = Gem::Specification.new do |spec|
   spec.homepage = "http://www.paulbarry.com" 
   spec.files = Dir["rails/*.rb"]
   spec.files += Dir["lib/**/*"]
-  spec.files += ["README"]
+  spec.files += ["README.md"]
 end
